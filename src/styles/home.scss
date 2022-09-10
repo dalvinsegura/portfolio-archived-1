@@ -1,0 +1,86 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$p-font: "Lato", sans-serif;
+$t-font: "Noto Sans", sans-serif;
+
+$primary-color: #cc2027;
+
+.home {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+
+  .home-container {
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    // TEXT AREA STYLE
+    .home-text-content {
+      width: 60vw;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      margin: 0 0 0 3rem;
+
+      h2 {
+        width: 70%;
+        font-size: 2.5rem;
+        font-family: $t-font;
+        text-align: start;
+        font-weight: 700;
+      }
+
+      p {
+        font-family: $p-font;
+        font-weight: 400;
+        color: #464646ee;
+      }
+
+      button {
+        text-align: center;
+        width: 8rem;
+        height: 3.3rem;
+        outline: none;
+        border: $primary-color solid 2px;
+        background: none;
+        color: $primary-color;
+        border-radius: 0.3rem;
+
+        a {
+          text-decoration: none;
+          font-family: $p-font;
+          font-weight: 400;
+          color: $primary-color;
+        }
+      }
+
+      button:hover {
+        background: $primary-color;
+        transition: all 0.2s ease;
+        a{
+            color: #eee;
+        }
+      }
+    }
+    // LOGO STYLE
+    .big-logo-home {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 40rem;
+        position: fixed;
+        left: 50%;
+      }
+    }
+  }
+}

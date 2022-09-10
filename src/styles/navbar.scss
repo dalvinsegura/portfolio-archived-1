@@ -1,0 +1,100 @@
+$nav-color-icons: rgb(150, 150, 150);
+// $background-color: #141414;
+$background-color: #141414ce;
+$fs-icons-nav: 1.5rem;
+$fs-icons-external-link: 1.4rem;
+
+$primary-color: #cc2027;
+
+
+nav {
+  width: 4rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 2rem 0rem;
+  z-index: 2;
+
+  box-shadow: rgba(153, 3, 3, 0.445) 1px -3px 5px;
+
+  background-color: $background-color;
+
+  .logo-container {
+    text-align: center;
+    img {
+      width: 70%;
+    }
+    img:hover + .name {
+      opacity: 1;
+      transition: opacity 0.2s ease;
+    }
+
+    .name {
+      opacity: 0;
+      margin-top: 0.7rem;
+      font-size: 0.7rem;
+      font-weight: bold;
+      color: rgb(153, 3, 3);
+    }
+  }
+
+  .nav-section-container {
+    display: flex;
+    flex-direction: column;
+
+    .nav-link {
+      margin: 1rem 0 1rem 0;
+      text-align: center;
+
+      .navIcon {
+        color: $nav-color-icons;
+        font-size: $fs-icons-nav;
+        margin: auto;
+      }
+
+      span {
+        display: block;
+        opacity: 0;
+        font-size: 0.7rem;
+      }
+
+      .navIcon:hover + span {
+        opacity: 1;
+        transition: all 0.6s ease-in;
+      }
+
+    }
+  }
+  .external-link {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      font-size: $fs-icons-external-link;
+      color: #eee;
+      margin: 0.3rem 0;
+
+      .linkedin-icon:hover {
+        color: $primary-color;
+        transition: all 0.3s ease;
+      }
+
+      .github-icon:hover {
+        color: $primary-color;
+        transition: all 0.3s ease;
+      }
+
+      .email-icon:hover {
+        color: $primary-color;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+
+body {
+  background: #0f0f0f;
+  color: #eeee;
+}
