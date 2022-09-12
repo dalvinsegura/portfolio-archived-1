@@ -1,5 +1,5 @@
-import NavBar from "./NavBar";
-import ParticleBackground from "./ParticleBackground";
+import NavBar from "../navbar/NavBar";
+import ParticleBackground from "../ParticleBackground";
 
 
 export default function Portfolio() {

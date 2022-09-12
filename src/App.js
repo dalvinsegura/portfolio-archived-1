@@ -1,12 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import "./styles/navbar.scss";
-
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Skills from "./components/skills/Skills";
+import Portfolio from "./components/portafolio/Portfolio";
 
 function App() {
   return (

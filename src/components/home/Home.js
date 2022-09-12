@@ -1,7 +1,7 @@
-import NavBar from "./NavBar";
-import ParticleBackground from "./ParticleBackground";
-import "../styles/home.scss";
-import logo from "../images/logo.png";
+import NavBar from "../navbar/NavBar";
+import ParticleBackground from "../ParticleBackground";
+import "./home.scss";
+import logo from "../../images/logo.png";
 // import ParticleBackground from "./ParticleBackground";
 
 export default function Home() {

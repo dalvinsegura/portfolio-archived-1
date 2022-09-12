@@ -1,7 +1,7 @@
-import NavBar from "./NavBar";
-import ParticleBackground from "./ParticleBackground";
+import NavBar from "../navbar/NavBar";
+import ParticleBackground from "../ParticleBackground";
 
-import "../styles/skills.scss";
+import "./skills.scss";
 
 export default function Skills() {
   return (
@@ -45,42 +45,42 @@ export default function Skills() {
             }}
             id="skills-icon"
             className="skills-icon"
-            src={require("../images/skills/react.svg").default}
+            src={require("../../images/skills/react.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/nodejs.svg").default}
+            src={require("../../images/skills/nodejs.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/express.svg").default}
+            src={require("../../images/skills/express.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/sql.svg").default}
+            src={require("../../images/skills/sql.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/npm.svg").default}
+            src={require("../../images/skills/npm.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/sass.svg").default}
+            src={require("../../images/skills/sass.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/figma.svg").default}
+            src={require("../../images/skills/figma.svg").default}
             alt="figma icon"
           />
           <img
             className="skills-icon"
-            src={require("../images/skills/git.svg").default}
+            src={require("../../images/skills/git.svg").default}
             alt="figma icon"
           />
         </div>
