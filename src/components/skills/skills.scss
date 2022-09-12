@@ -4,6 +4,8 @@ $t-fontsize: 2rem;
 $p-fontsize: 1.15rem;
 
 $primary-color: #cc2027;
+$p-color: #9e9e9e;
+
 
 :root {
   margin: 0;
@@ -37,10 +39,11 @@ $primary-color: #cc2027;
         color: $primary-color;
         font-family: $t-fontsize;
         font-weight: 700;
+        font-size: $t-fontsize;
       }
 
       p {
-        color: #9e9e9e;
+        color: $p-color;
         font-family: $p-font;
         font-weight: 400;
         font-size: $p-fontsize;
