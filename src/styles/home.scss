@@ -36,6 +36,10 @@ $primary-color: #cc2027;
         font-family: $t-font;
         text-align: start;
         font-weight: 700;
+
+        .name-text {
+          display: inline-block;
+        }
       }
 
       p {
@@ -65,8 +69,8 @@ $primary-color: #cc2027;
       button:hover {
         background: $primary-color;
         transition: all 0.2s ease;
-        a{
-            color: #eee;
+        a {
+          color: #eee;
         }
       }
     }
@@ -82,5 +86,47 @@ $primary-color: #cc2027;
         left: 50%;
       }
     }
+  }
+
+  .big-logo-home-animation {
+    animation-name: big-logo-home-animation;
+    animation-duration: 3s;
+  }
+
+  .name-text-animation {
+    animation: shake 0.2s infinite;
+  }
+}
+
+@keyframes big-logo-home-animation {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+    color: #cc2027;
+  }
+  25% {
+    transform: rotate(5deg);
+    color: #cc2027;
+  }
+  50% {
+    transform: rotate(0eg);
+    color: #cc2027;
+  }
+  75% {
+    transform: rotate(-5deg);
+    color: #cc2027;
+  }
+  100% {
+    transform: rotate(0deg);
+    color: #cc2027;
   }
 }

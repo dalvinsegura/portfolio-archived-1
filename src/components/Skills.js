@@ -41,10 +41,8 @@ export default function Skills() {
               skillIcon.classList.add("skills-icon-hover");
               setTimeout(() => {
                 skillIcon.classList.remove("skills-icon-hover");
-
               }, 500);
             }}
-
             id="skills-icon"
             className="skills-icon"
             src={require("../images/skills/react.svg").default}

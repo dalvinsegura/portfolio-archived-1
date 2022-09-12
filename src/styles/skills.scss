@@ -94,83 +94,81 @@ $primary-color: #cc2027;
 }
 
 @keyframes skills-icon-hover {
-//   0% {
-//     transform: rotate(10deg);
-//     transition: all 3s ease;
-//   }
+  //   0% {
+  //     transform: rotate(10deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   10% {
-//     transform: rotate(20deg);
-//     transition: all 3s ease;
-//   }
+  //   10% {
+  //     transform: rotate(20deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   20% {
-//     transform: rotate(30deg);
-//     transition: all 3s ease;
-//   }
+  //   20% {
+  //     transform: rotate(30deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   30% {
-//     transform: rotate(20deg);
-//     transition: all 3s ease;
-//   }
+  //   30% {
+  //     transform: rotate(20deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   40% {
-//     transform: rotate(0deg);
-//     transition: all 3s ease;
-//   }
+  //   40% {
+  //     transform: rotate(0deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   50% {
-//     transform: rotate(90deg);
-//     transition: all 3s ease;
-//   }
+  //   50% {
+  //     transform: rotate(90deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   60% {
-//     transform: rotate(80deg);
-//     transition: all 3s ease;
-//   }
+  //   60% {
+  //     transform: rotate(80deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   70% {
-//     transform: rotate(60deg);
-//     transition: all 3s ease;
-//   }
+  //   70% {
+  //     transform: rotate(60deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   80% {
-//     transform: rotate(40deg);
-//     transition: all 3s ease;
-//   }
+  //   80% {
+  //     transform: rotate(40deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   90% {
-//     transform: rotate(20deg);
-//     transition: all 3s ease;
-//   }
+  //   90% {
+  //     transform: rotate(20deg);
+  //     transition: all 3s ease;
+  //   }
 
-//   100% {
-//     transform: rotate(0deg);
-//     transition: all 3s ease;
-//   }
+  //   100% {
+  //     transform: rotate(0deg);
+  //     transition: all 3s ease;
+  //   }
 
-0% {
+  0% {
     // transform: rotate(0deg);
     transform: scale(0rem);
-}
+  }
 
-25% {
+  25% {
     // transform: rotate(45deg);
     // transition: all 1s ease;
     transform: scale(2rem);
-}
+  }
 
-50%{
+  50% {
     // transform: rotate(0deg);
     // transition: all 4s ease;
     transform: scale(2rem);
-}
+  }
 
-100% {
+  100% {
     // transform: rotate(-45deg);
     // transition: all 1s ease;
     transform: scale(2rem);
-}
-
-};
-
+  }
+} ;
