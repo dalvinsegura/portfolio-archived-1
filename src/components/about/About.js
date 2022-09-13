@@ -12,14 +12,10 @@ export default function About() {
           <div className="text-content-about">
             <h1>About</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              exercitationem tempore in quibusdam natus officia quas aperiam
-              corporis error perspiciatis mollitia nemo porro ex, amet ratione
-              recusandae facilis distinctio cupiditate.
+            I am a self-taught person who started learning programming at the age of 14 with HTML and CSS. I identify myself as a person with critical and analytical thinking.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Recusandae magnam laborum deleniti.
+            I am always constantly learning about technologies that can make my job easier as a web developer or about finance, marketing and business.
             </p>
           </div>
 

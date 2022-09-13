@@ -2,6 +2,7 @@ import NavBar from "../navbar/NavBar";
 import ParticleBackground from "../ParticleBackground";
 import "./home.scss";
 import logo from "../../images/logo.png";
+import drFlag from "../../images/dr-flag.png";
 // import ParticleBackground from "./ParticleBackground";
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
             >
               Dalvin Segura,{" "}
             </div>
-            <br /> Web Developer and passionate about science
+            <br /> Web Developer and passionate about science <img className="dr-flag-icon" src={drFlag} alt="Dominican Republic flag" />
           </h2>
           <p>ReactJS Developer / Entrepreneur / Avid Learner</p>
 

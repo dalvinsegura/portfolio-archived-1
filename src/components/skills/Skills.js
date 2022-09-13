@@ -11,15 +11,10 @@ export default function Skills() {
         <div className="text-content-skills">
           <h1>Skills</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum eos
-            facere, unde eius amet minima laboriosam reprehenderit accusamus
-            quisquam quidem nisi voluptatum, ipsam consequatur quia odio beatae
-            quas repellat earum.
+          I am currently training as a full stack developer, but foremost my goal is to master ReactJS well.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-            exercitationem illum consequatur nobis ut temporibus neque ratione
-            natus suscipit maiores.
+          I also could not forget to improve my other skills like the ones I mention here, which is why I have the goal of always keeping practicing them.
           </p>
         </div>
 
