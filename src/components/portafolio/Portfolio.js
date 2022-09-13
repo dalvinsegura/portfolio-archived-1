@@ -51,7 +51,7 @@ export default function Portfolio() {
   return (
     <>
       <div className="portfolio">
-        <NavBar />
+        <NavBar className="navbar-fixed"/>
         <div className="portfolio-container">
           <h1>Portfolio</h1>
           <div className="projects-container">

@@ -1,12 +1,13 @@
 import { NavLink } from "react-router-dom";
+import { ParticlesOptions } from "tsparticles-engine";
 
 
 import logo from "../../images/logo.png";
 import "./navbar.scss";
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
-    <nav>
+    <nav className={props.className}>
       <div className="logo-container">
         <img src={logo} alt="Logo" />
         <h5 className="name">Dalvin Segura F.</h5>
