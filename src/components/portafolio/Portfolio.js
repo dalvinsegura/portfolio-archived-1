@@ -3,7 +3,10 @@ import ParticleBackground from "../ParticleBackground";
 import "./portfolio.scss";
 
 // IMPORT AN IMAGE FOR EACH PROJECT HERE:
-import macdonaldsPreviewImg from "../../images/portfolio/macdonalds-website.png";
+import DalvinPortfolioPreviewImg from "../../images/portfolio/preview/dalvin-portfolio.jpg";
+import QuotablePreviewImg from "../../images/portfolio/preview/Quotable-preview.jpg";
+import PernStackPreviewImg from "../../images/portfolio/preview/pern-stack-website.jpg";
+import SimpleSignUpPreviewImg from "../../images/portfolio/preview/simple-sign-up.jpg";
 
 const ProjectCard = (props) => {
   return (
@@ -29,16 +32,30 @@ const ProjectCard = (props) => {
         <p>{props.techUsed}</p>
       </div>
 
-      <div className="btn-container">
+      <div
+        className="btn-container"
+        style={{
+          justifyContent:
+            props.previeAvailability === true ? "space-between" : "center",
+        }}
+      >
         <a
           href={props.codeGithubUrl}
+          rel="noreferrer"
           target="_blank"
           alt="Link to project code"
         >
           <i class="fa-brands fa-github github-icon"></i>
           <span className="text-github">Code</span>
         </a>
-        <a href={props.previewbUrl} target="_blank">
+        <a
+          style={{
+            display: props.previeAvailability === true ? "block" : "none",
+          }}
+          rel="noreferrer"
+          href={props.previewbUrl}
+          target="_blank"
+        >
           <i class="fa-solid fa-eye preview-icon"></i>
           <span className="text-preview">Preview</span>
         </a>
@@ -51,48 +68,44 @@ export default function Portfolio() {
   return (
     <>
       <div className="portfolio">
-        <NavBar className="navbar-fixed"/>
+        <NavBar className="navbar-fixed" />
         <div className="portfolio-container">
           <h1>Portfolio</h1>
           <div className="projects-container">
             <ProjectCard
-              urlImage={macdonaldsPreviewImg}
-              title="MacDonald's Website"
-              techUsed="ReactJS | SASS | Tsparticles | NodeJS | ExpressJS | SQL Server"
-              codeGithubUrl="https://github.com/dalvinsegura/portfolio"
-              previewbUrl="https://github.com/dalvinsegura"
+              urlImage={QuotablePreviewImg}
+              title="Quotable Website (Quote Poster)"
+              techUsed="HTML | CSS | JavaScript"
+              codeGithubUrl="https://github.com/dalvinsegura/quotable"
+              previewbUrl="https://dalvinsegura.github.io/quotable/"
+              previeAvailability={true}
             />
 
-<ProjectCard
-              urlImage={macdonaldsPreviewImg}
-              title="MacDonald's Website"
-              techUsed="ReactJS | SASS | Tsparticles | NodeJS | ExpressJS | SQL Server"
-              codeGithubUrl="https://github.com/dalvinsegura/portfolio"
-              previewbUrl="https://github.com/dalvinsegura"
+            <ProjectCard
+              urlImage={PernStackPreviewImg}
+              title="To-do List Web App "
+              techUsed="PERN Stack ( PostgreSQL, ExpressJS, ReactJS, NodeJS)"
+              codeGithubUrl="https://github.com/dalvinsegura/todo-list"
+              previewbUrl=""
+              previeAvailability={false}
             />
 
-<ProjectCard
-              urlImage={macdonaldsPreviewImg}
-              title="MacDonald's Website"
-              techUsed="ReactJS | SASS | Tsparticles | NodeJS | ExpressJS | SQL Server"
-              codeGithubUrl="https://github.com/dalvinsegura/portfolio"
-              previewbUrl="https://github.com/dalvinsegura"
+            <ProjectCard
+              urlImage={SimpleSignUpPreviewImg}
+              title="Simple Sign Up "
+              techUsed="HTML | CSS | JavaScript"
+              codeGithubUrl="https://github.com/dalvinsegura/simple-sign-up"
+              previewbUrl="https://dalvinsegura.github.io/simple-sign-up/"
+              previeAvailability={true}
             />
 
-<ProjectCard
-              urlImage={macdonaldsPreviewImg}
-              title="MacDonald's Website"
-              techUsed="ReactJS | SASS | Tsparticles | NodeJS | ExpressJS | SQL Server"
+              <ProjectCard
+              urlImage={DalvinPortfolioPreviewImg}
+              title="Dalvin Portfolio"
+              techUsed="ReactJS | SASS | Tsparticles"
               codeGithubUrl="https://github.com/dalvinsegura/portfolio"
-              previewbUrl="https://github.com/dalvinsegura"
-            />
-
-<ProjectCard
-              urlImage={macdonaldsPreviewImg}
-              title="MacDonald's Website"
-              techUsed="ReactJS | SASS | Tsparticles | NodeJS | ExpressJS | SQL Server"
-              codeGithubUrl="https://github.com/dalvinsegura/portfolio"
-              previewbUrl="https://github.com/dalvinsegura"
+              previewbUrl="https://dalvinsegura.herokuapp.com/"
+              previeAvailability={true}
             />
           </div>
         </div>
