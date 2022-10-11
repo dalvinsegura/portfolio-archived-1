@@ -6,6 +6,20 @@ import drFlag from "../../images/dr-flag.png";
 // import ParticleBackground from "./ParticleBackground";
 
 export default function Home() {
+  const ButtonCT = (props) => {
+    return (
+      <button type="button" className={props.fillBtn ? "fill-btn" : ""}>
+        <a
+          href={props.hrefLink}
+          style={props.fillBtn ? { color: "#eee" } : {}}
+          alt={`Link to ${props.value}`}
+        >
+          {props.value}
+        </a>
+      </button>
+    );
+  };
+
   return (
     <div className="home">
       <NavBar />
@@ -29,18 +43,28 @@ export default function Home() {
             >
               Dalvin Segura,{" "}
             </div>
-            <br /> Web Developer and passionate about science <img className="dr-flag-icon" src={drFlag} alt="Dominican Republic flag" />
+            <br /> Web Developer and passionate about science{" "}
+            <img
+              className="dr-flag-icon"
+              src={drFlag}
+              alt="Dominican Republic flag"
+            />
           </h2>
           <p>ReactJS Developer / Entrepreneur / Avid Learner</p>
 
-          <button type="button">
-            <a
-              href="https://www.linkedin.com/in/dalvin-segura-fern%C3%A1ndez-5030711b2/"
-              alt="Linkedin Link"
-            >
-              LinkedIn
-            </a>
-          </button>
+          <div className="btn-container">
+            <ButtonCT
+              hrefLink="https://www.linkedin.com/in/dalvin-segura-fern%C3%A1ndez-5030711b2/"
+              value="LinkedIn"
+              fillBtn={false}
+            />
+
+            <ButtonCT
+              hrefLink="https://www.linkedin.com/in/dalvin-segura-fern%C3%A1ndez-5030711b2/"
+              value="Download CV"
+              fillBtn={true}
+            />
+          </div>
         </div>
 
         <div className="big-logo-home">

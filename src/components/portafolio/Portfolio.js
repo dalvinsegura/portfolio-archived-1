@@ -108,7 +108,7 @@ export default function Portfolio() {
               techUsed="ReactJS | SASS | Tsparticles"
               codeGithubUrl="https://github.com/dalvinsegura/portfolio"
               previewbUrl="https://dalvinsegura.herokuapp.com/"
-              previeAvailability={true}
+              previeAvailability={false}
             />
 
             <ProjectCard

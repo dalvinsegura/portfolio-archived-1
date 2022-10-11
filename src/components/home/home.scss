@@ -41,7 +41,7 @@ $primary-color: #cc2027;
           display: inline-block;
         }
 
-        .dr-flag-icon{
+        .dr-flag-icon {
           margin-left: 0.5rem;
           width: 10%;
         }
@@ -53,22 +53,37 @@ $primary-color: #cc2027;
         color: #464646ee;
       }
 
-      button {
-        text-align: center;
-        width: 8rem;
-        height: 3.3rem;
-        outline: none;
-        border: $primary-color solid 2px;
-        background: none;
-        color: $primary-color;
-        border-radius: 0.3rem;
+      .btn-container {
+        display: flex;
+        flex-direction: row;
 
-        a {
-          text-decoration: none;
-          font-family: $p-font;
-          font-weight: 400;
+        button {
+          text-align: center;
+          // width: 8rem;
+          // height: 3.3rem;
+          padding: 2% 4%;
+
+          outline: none;
+          border: $primary-color solid 2px;
+          background: none;
           color: $primary-color;
+          border-radius: 0.3rem;
+          margin-right: 1rem;
+
+          a {
+            text-decoration: none;
+            font-family: $p-font;
+            font-weight: 400;
+            color: $primary-color;
+          }
         }
+
+        .fill-btn{
+          background-color: $primary-color;
+          color: #eee;
+        }
+
+        
       }
 
       button:hover {
