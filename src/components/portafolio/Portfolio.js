@@ -7,6 +7,9 @@ import DalvinPortfolioPreviewImg from "../../images/portfolio/preview/dalvin-por
 import QuotablePreviewImg from "../../images/portfolio/preview/Quotable-preview.jpg";
 import PernStackPreviewImg from "../../images/portfolio/preview/pern-stack-website.jpg";
 import SimpleSignUpPreviewImg from "../../images/portfolio/preview/simple-sign-up.jpg";
+import CountriesSearcherPreviewImg from "../../images/portfolio/preview/countries-searcher.png";
+import InstareciboPreviewImg from "../../images/portfolio/preview/instarecibo.jpg";
+
 
 const ProjectCard = (props) => {
   return (
@@ -99,12 +102,30 @@ export default function Portfolio() {
               previeAvailability={true}
             />
 
-              <ProjectCard
+            <ProjectCard
               urlImage={DalvinPortfolioPreviewImg}
               title="Dalvin Portfolio"
               techUsed="ReactJS | SASS | Tsparticles"
               codeGithubUrl="https://github.com/dalvinsegura/portfolio"
               previewbUrl="https://dalvinsegura.herokuapp.com/"
+              previeAvailability={true}
+            />
+
+            <ProjectCard
+              urlImage={CountriesSearcherPreviewImg}
+              title="Countries Searcher"
+              techUsed="ReactJS | SASS | API Services"
+              codeGithubUrl="https://github.com/dalvinsegura/countries-searcher"
+              previewbUrl="https://countries-searcher-dalvin.netlify.app/"
+              previeAvailability={true}
+            />
+
+            <ProjectCard
+              urlImage={InstareciboPreviewImg}
+              title="Instarecibo (Coming Soon)"
+              techUsed="PERN Stack"
+              codeGithubUrl="https://github.com/dalvinsegura/countries-searcher"
+              previewbUrl="https://countries-searcher-dalvin.netlify.app/"
               previeAvailability={true}
             />
           </div>
