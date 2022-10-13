@@ -1,0 +1,24 @@
+@media screen and (min-width: 2560px) and (min-width: 3000px) {
+  :root {
+    font-size: 25px;
+  }
+
+  nav {
+    width: 6rem;
+    font-size: 30px;
+
+    .nav-section-container {
+      .nav-link {
+        .navIcon {
+          font-size: 2.2rem;
+        }
+      }
+
+      .external-link {
+        a{
+            font-size: 20rem;
+        }
+      }
+    }
+  }
+}

@@ -60,7 +60,7 @@ export default function Home() {
             />
 
             <ButtonCT
-              hrefLink="https://www.linkedin.com/in/dalvin-segura-fern%C3%A1ndez-5030711b2/"
+              hrefLink="https://www.dropbox.com/s/d7k254h10x3tzkq/Dalvin%20Segura%20CV%20Tech.pdf?dl=0"
               value="Download CV"
               fillBtn={true}
             />

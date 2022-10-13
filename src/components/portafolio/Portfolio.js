@@ -43,6 +43,9 @@ const ProjectCard = (props) => {
         }}
       >
         <a
+        style={{
+            display: props.codeAvailability === true ? "block" : "none",
+          }}
           href={props.codeGithubUrl}
           rel="noreferrer"
           target="_blank"
@@ -82,6 +85,7 @@ export default function Portfolio() {
               codeGithubUrl="https://github.com/dalvinsegura/quotable"
               previewbUrl="https://dalvinsegura.github.io/quotable/"
               previeAvailability={true}
+              codeAvailability={true}
             />
 
             <ProjectCard
@@ -91,6 +95,7 @@ export default function Portfolio() {
               codeGithubUrl="https://github.com/dalvinsegura/todo-list"
               previewbUrl=""
               previeAvailability={false}
+              codeAvailability={true}
             />
 
             <ProjectCard
@@ -100,6 +105,7 @@ export default function Portfolio() {
               codeGithubUrl="https://github.com/dalvinsegura/simple-sign-up"
               previewbUrl="https://dalvinsegura.github.io/simple-sign-up/"
               previeAvailability={true}
+              codeAvailability={true}
             />
 
             <ProjectCard
@@ -109,6 +115,7 @@ export default function Portfolio() {
               codeGithubUrl="https://github.com/dalvinsegura/portfolio"
               previewbUrl="https://dalvinsegura.herokuapp.com/"
               previeAvailability={false}
+              codeAvailability={true}
             />
 
             <ProjectCard
@@ -118,6 +125,8 @@ export default function Portfolio() {
               codeGithubUrl="https://github.com/dalvinsegura/countries-searcher"
               previewbUrl="https://countries-searcher-dalvin.netlify.app/"
               previeAvailability={true}
+              codeAvailability={true}
+
             />
 
             <ProjectCard
@@ -126,7 +135,8 @@ export default function Portfolio() {
               techUsed="PERN Stack"
               codeGithubUrl="https://github.com/dalvinsegura/countries-searcher"
               previewbUrl="https://countries-searcher-dalvin.netlify.app/"
-              previeAvailability={true}
+              previeAvailability={false}
+              codeAvailability={false}
             />
           </div>
         </div>

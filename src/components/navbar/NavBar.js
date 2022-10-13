@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { ParticlesOptions } from "tsparticles-engine";
 
 
 import logo from "../../images/logo.png";
