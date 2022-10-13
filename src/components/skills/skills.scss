@@ -113,3 +113,21 @@ $p-color: #9e9e9e;
     // transition: all 1s ease;
   }
 } ;
+
+@media only screen and (max-width: 1024PX){
+  .nav{
+    .skills-container{
+      .text-content-skills{
+
+      }
+
+      .skills-icon-content{
+        width: 70vw;
+
+        .skills-icon{
+          width: 30%;
+        }
+      }
+    }
+  }
+}

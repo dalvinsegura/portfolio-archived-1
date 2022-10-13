@@ -152,3 +152,19 @@ $p-color: #9e9e9e;
     color: #cc2027;
   }
 }
+
+@media only screen and (max-width: 1280PX){
+  .portfolio{
+    .projects-container{
+      gap: 2rem;
+      // justify-items: center;
+
+      .project-card{
+        h3{
+          font-size: 1.3rem;
+        }
+      }
+
+    }
+  }
+}

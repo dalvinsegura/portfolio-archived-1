@@ -34,13 +34,13 @@ export default function NavBar(props) {
 
       <div className="external-link">
         <a href="https://www.linkedin.com/in/dalvin-segura-fern%C3%A1ndez-5030711b2/" alt="Linkedin Link">
-          <i class="fa-brands fa-linkedin linkedin-icon"></i>
+          <i class="fa-brands fa-linkedin link-icon"></i>
         </a>
         <a href="http://github.com/dalvinsegura">
-          <i class="fa-brands fa-square-github github-icon" alt="Github Link"></i>
+          <i class="fa-brands fa-square-github link-icon" alt="Github Link"></i>
         </a>
         <a href="email:dalvinsegura18@hotmail.com" alt="Email Link">
-          <i class="fa-solid fa-envelope email-icon"></i>
+          <i class="fa-solid fa-envelope link-icon"></i>
         </a>
       </div>
     </nav>

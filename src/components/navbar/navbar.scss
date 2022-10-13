@@ -78,25 +78,58 @@ nav {
       color: #eee;
       margin: 0.3rem 0;
 
-      .linkedin-icon:hover {
-        color: $primary-color;
-        transition: all 0.3s ease;
-      }
-
-      .github-icon:hover {
-        color: $primary-color;
-        transition: all 0.3s ease;
-      }
-
-      .email-icon:hover {
+      .link-icon:hover {
         color: $primary-color;
         transition: all 0.3s ease;
       }
     }
   }
 }
-
 body {
   background: #0f0f0f;
   color: #eeee;
+}
+
+
+@media only screen and (max-width: 1280PX){
+  nav{
+    .nav-section-container{
+      .nav-link{
+        margin: 0.4rem 0;
+
+      }
+    }
+
+    .external-link{
+      a{
+        margin: 0rem;
+      }
+
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1024PX){
+  nav{
+    .nav-section-container{
+      .nav-link{
+        margin: 0.05rem 0;
+
+        .navIcon{
+          font-size: 1.2rem;
+        }
+
+      }
+    }
+
+    .external-link{
+      a{
+        margin-bottom: 0.1rem;
+        font-size: 1.2rem;
+      }
+
+    }
+  }
+
 }

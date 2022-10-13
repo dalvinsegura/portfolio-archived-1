@@ -59,8 +59,6 @@ $primary-color: #cc2027;
 
         button {
           text-align: center;
-          // width: 8rem;
-          // height: 3.3rem;
           padding: 2% 4%;
 
           outline: none;
@@ -78,12 +76,10 @@ $primary-color: #cc2027;
           }
         }
 
-        .fill-btn{
+        .fill-btn {
           background-color: $primary-color;
           color: #eee;
         }
-
-        
       }
 
       button:hover {
@@ -148,5 +144,48 @@ $primary-color: #cc2027;
   100% {
     transform: rotate(0deg);
     color: #cc2027;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .home {
+    .home-container {
+      .big-logo-home {
+        img {
+          width: 30rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    .home-container {
+      .home-text-content {
+        h2 {
+          font-size: 1.9rem;
+        }
+
+        p {
+          font-size: 0.95 rem;
+        }
+        .btn-container {
+          button {
+            padding: 1.7% 3%;
+            a {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+      .big-logo-home {
+        width: 30%;
+        img {
+          width: 25rem;
+          left: 55%;
+        }
+      }
+    }
   }
 }

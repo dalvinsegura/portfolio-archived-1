@@ -20,14 +20,14 @@ import SqlIcon from "../../images/skills/sql.svg";
 const IconSkill = (props) => {
   return (
     <img
-      onMouseOver={() => {
-        const skillIcon = document.getElementById("skills-icon");
+      // onMouseOver={() => {
+      //   const skillIcon = document.getElementById("skills-icon");
 
-        skillIcon.classList.add("skills-icon-hover");
-        setTimeout(() => {
-          skillIcon.classList.remove("skills-icon-hover");
-        }, 1500);
-      }}
+      //   skillIcon.classList.add("skills-icon-hover");
+      //   setTimeout(() => {
+      //     skillIcon.classList.remove("skills-icon-hover");
+      //   }, 1500);
+      // }}
       id="skills-icon"
       className="skills-icon"
       src={props.srcUrl}
