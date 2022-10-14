@@ -97,7 +97,7 @@ $primary-color: #cc2027;
       justify-content: center;
       align-items: center;
       img {
-        width: 40rem;
+        width: 36rem;
         position: fixed;
         left: 50%;
       }
@@ -184,6 +184,36 @@ $primary-color: #cc2027;
         img {
           width: 25rem;
           left: 55%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    .home-container {
+      .home-text-content {
+        h2 {
+          font-size: 1.7rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+        .btn-container {
+          button {
+            a {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+      .big-logo-home {
+        width: 30%;
+        img {
+          width: 18rem;
+          left: 57%;
         }
       }
     }

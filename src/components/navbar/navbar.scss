@@ -116,6 +116,30 @@ body {
       .nav-link{
         margin: 0.05rem 0;
 
+        span{
+          font-size: 0.5rem;
+        }
+
+      }
+    }
+
+    .external-link{
+      a{
+        margin-bottom: 0.1rem;
+        font-size: 1.2rem;
+      }
+
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  nav{
+    .nav-section-container{
+      .nav-link{
+        margin: 0.1rem 0;
+
         .navIcon{
           font-size: 1.2rem;
         }
