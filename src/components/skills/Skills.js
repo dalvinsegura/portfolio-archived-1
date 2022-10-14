@@ -16,6 +16,7 @@ import NpmIcon from "../../images/skills/npm.svg";
 import ReactjsIcon from "../../images/skills/react.svg";
 import SassIcon from "../../images/skills/sass.svg";
 import SqlIcon from "../../images/skills/sql.svg";
+import PostgresqlIcon from "../../images/skills/postgresql.svg";
 
 const IconSkill = (props) => {
   return (
@@ -75,6 +76,7 @@ export default function Skills() {
           <IconSkill srcUrl={JavaScriptIcon} alt="JavaScript Icon" />
           <IconSkill srcUrl={NodejsIcon} alt="NodeJS Icon" />
           <IconSkill srcUrl={SqlIcon} alt="SQL Server Icon" />
+          <IconSkill srcUrl={PostgresqlIcon} alt="PostgreSQL Icon" />
           <IconSkill srcUrl={ReactjsIcon} alt="ReactJS Icon" />
           <IconSkill srcUrl={ExpressIcon} alt="ExpressJS Icon" />
           <IconSkill srcUrl={NpmIcon} alt="NPM Icon" />
